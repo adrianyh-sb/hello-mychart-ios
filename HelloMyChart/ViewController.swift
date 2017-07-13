@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         let alertController = UIAlertController(title: "Welcome to MyChart", message: "Personal Health Record Network", preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
         present(alertController, animated: true, completion: nil)
+        
+        print("MyChart button clicked")
     }
 
 }
